@@ -138,7 +138,7 @@
     "d3": "^7.1.1",
     "dagre-d3": "^0.6.4",
     "dotenv": "^10.0.0",
-    "ejs": "^3.1.6",
+    "ejs": "^3.1.8",
     "express": "^4.17.1",
     "express-rate-limit": "^5.4.1",
     "express-session": "^1.17.2",
