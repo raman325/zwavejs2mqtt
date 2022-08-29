@@ -237,7 +237,7 @@
     "postcss-url": "^10.1.3",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
-    "sass": "^1.54.0",
+    "sass": "^1.54.5",
     "sass-loader": "^13.0.2",
     "semver": "^7.3.7",
     "shelljs": "^0.8.5",
