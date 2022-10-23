@@ -2383,10 +2383,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/chai@npm:*, @types/chai@npm:^4.3.1":
+"@types/chai@npm:*":
   version: 4.3.1
   resolution: "@types/chai@npm:4.3.1"
   checksum: 2ee246b76c469cd620a7a1876a73bc597074361b67d547b4bd96a0c1adb43597ede2d8589ab626192e14349d83cbb646cc11e2c179eeeb43ff11596de94d82c4
+  languageName: node
+  linkType: hard
+
+"@types/chai@npm:^4.3.3":
+  version: 4.3.3
+  resolution: "@types/chai@npm:4.3.3"
+  checksum: 20cd094753e137cfc35939cae7f0ed78ecda7861e5c94704efab6979b9121a63807e9b631bdcf3a2792d6c6dba44050b13387262f9e63ebb040741c01c345f0a
   languageName: node
   linkType: hard
 
@@ -16839,7 +16846,7 @@ __metadata:
     "@release-it/conventional-changelog": ^5.0.0
     "@types/app-root-path": ^1.2.4
     "@types/archiver": ^5.3.1
-    "@types/chai": ^4.3.1
+    "@types/chai": ^4.3.3
     "@types/chai-as-promised": ^7.1.5
     "@types/connect-history-api-fallback": ^1.3.5
     "@types/csurf": ^1.11.2
