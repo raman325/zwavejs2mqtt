@@ -1,7 +1,7 @@
 ARG image=zwave-js-ui
 
 # STEP: 1 build
-FROM node:18.10.0-alpine3.16 AS build-zui
+FROM node:19.0.0-alpine3.16 AS build-zui
 
 WORKDIR /usr/src/app
 
@@ -54,7 +54,7 @@ RUN if [ ! -z "$updateDevices"  ]; \
     fi
 
 # STEP: 2 (runtime)
-FROM node:18.10.0-alpine3.16
+FROM node:19.0.0-alpine3.16
 
 RUN apk add --no-cache \	
     libstdc++ \
